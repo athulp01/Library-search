@@ -47,7 +47,7 @@ class MyFrame(wx.Frame):
         sizer_6 = wx.BoxSizer(wx.VERTICAL)
         sizer_7 = wx.BoxSizer(wx.HORIZONTAL)
         sizer_8 = wx.BoxSizer(wx.VERTICAL)
-        bitmap_2 = wx.StaticBitmap(self, wx.ID_ANY, wx.Bitmap("/home/athulp/Desktop/nit-logo.jpg", wx.BITMAP_TYPE_ANY), style=wx.BORDER_RAISED | wx.BORDER_SIMPLE | wx.BORDER_STATIC | wx.BORDER_SUNKEN)
+        bitmap_2 = wx.StaticBitmap(self, wx.ID_ANY, wx.Bitmap("./nit-logo.jpg", wx.BITMAP_TYPE_ANY), style=wx.BORDER_RAISED | wx.BORDER_SIMPLE | wx.BORDER_STATIC | wx.BORDER_SUNKEN)
         sizer_6.Add(bitmap_2, 0, wx.EXPAND, 0)
         label_1 = wx.StaticText(self, wx.ID_ANY, "SEARCH THE NITC LIBRARY", style=wx.ALIGN_CENTER | wx.ALIGN_LEFT | wx.ALIGN_RIGHT | wx.ST_ELLIPSIZE_END | wx.ST_ELLIPSIZE_MIDDLE | wx.ST_ELLIPSIZE_START | wx.ST_NO_AUTORESIZE)
         label_1.SetFont(wx.Font(16, wx.DEFAULT, wx.NORMAL, wx.BOLD, 0, "Tlwg Typist"))
